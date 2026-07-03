@@ -20,9 +20,9 @@ dist/
 .classpath
 .settings/
 
-# OS
-.DS_Store
-Thumbs.db
+# Sensitive config
+vibe-hub-server/src/main/resources/application.properties
+.env
 
 # Logs
 *.log
